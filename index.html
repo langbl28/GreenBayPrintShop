@@ -1,1 +1,307 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Bay Print Shop</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Green Bay Print Shop screen prints t-shirts, sweatshirts, tank tops and more in a sustainable, quality and quick manner.">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .no-padding{
+            padding: 0;}
+        
+        header{
+            background-color: #333333;}
+        header ul{
+            padding-top: 25px;
+            float: right;}
+        header li{
+            padding-right: 10px;
+            display: inline-block;}
+        header a{
+            color: #fffbef;}
+        header a:hover{
+            color: #fffbef;}
+        
+        .cta-container{
+            padding-right: 0;}
+        .cta{
+            background: #efcc3c;
+            border-color: #efcc3c;
+            border-bottom: #f39c12 3px solid;
+            border-left: #f39c12 1px solid;
+            border-right: #f39c12 1px solid;
+            border-radius: 6px;
+            text-align: center;
+            color: #fff;
+            padding: 10px;
+            font-weight: 800;}
+        .cta:hover{
+            opacity: 0.8; }
+        .cta:active{
+            background: #f1c40f;
+            border-bottom: #f39c12 1px solid;}      
+      
+        header img{
+            padding: 15px;
+            max-width: 100px;}
+        
+        body{
+            background-color: #fffbef;}
+        
+        #services img{
+            padding: 5em 5em 1em 5em; }
+        #services{
+            margin-bottom: 55px;
+            text-align: center;}
+        h3{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;}
+        h4{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;}
+        p{
+            font-size: 1.1em;
+            line-height: 1.6em;}
+        
+        #about-us{
+            padding-bottom: 50px;
+            padding-top: 20px;
+            background-color: #093d44;}
+        #about-us h3, #about-us h4{
+            color: #fffad5;}
+        #about-us p{
+            margin-bottom: 25px;
+            color: #fffbef;}
+        #about-us .GBPS{
+            padding: 25px;}
+        
+        #quote{
+            border-left: 2px solid #fffbef;
+            padding-left: 30px;
+            color: #fffbef;}
+        #quote h3{}
+        #quote a{
+            color: #fffbef;}
+        #quote a:hover{
+            color: #fffbef;}
+        #quote label{
+            color: #fffbef;
+            font-weight: 600;}            
+        #quote input, #quote textarea{
+            color: #093d44;
+            padding: 10px;
+            background-color: #fffbef;
+            margin-bottom: 20px;
+            width: 100%;}
+        #quote .submit{
+            background-color: #efcc3c;}
+        #quote span{
+            color: #fffbef;
+            font-weight: 600;
+            margin-bottom:10px;
+            border: 2px solid #3498db;
+            width: 100%;
+            padding: 10px;
+            display: block;
+            background-color: ;}
+        
+        #portfolio{
+            padding: 50px 0;}
+        #portfolio img{
+            margin-bottom: 15px;}
+        #portfolio a{
+            color: #093d44;}
+        
+        #footer{
+            padding-bottom: 55px;
+            background-color: #333;}
+        #footer h3{
+            color: #888;}
+        #footer a{
+            color: #888;}
+        
+@media (max-width: 991px) {   
+    
+        #quote{
+            border: 0;
+            padding: 0;}
+}
+        
+@media (max-width: 767px) {
+    
+        header{
+            text-align: center;}
+        header img{
+            padding-bottom: 0px;
+            max-width: 150px;}
+        header ul{
+            padding: 15px 0;
+            float: none;}
+    
+    
+        #services{
+            padding: 20px 0;
+            margin-bottom: 0;}
+        #services img{
+            padding: 1em 2em;}
+    
+        #about-us{
+            padding-bottom: 15px;}
+        #portfolio{ 
+            padding: 0;
+            padding-bottom: 10px;}
+
+}
+        
+@media (max-width: 346px) {     
+    .cta-container{
+        margin-top: 15px;}
+    #services h3{
+        font-size: 1.3em;}
+        }
+
+    </style>
+
+</head>
+
+<body>
+<header>
+<div class="container">
+<div class="row">
+<div class="col-sm-2"><a href="/"><img class="logo" src="gbps.svg" /> </a></div>
+
+<div class="col-md-10">
+<ul>
+	<li><a href="/#services">Services</a></li>
+	<li><a href="/#about-us">About Us</a></li>
+	<li><a href="https://www.instagram.com/greenbayprintshop/" target="_blank">Portfolio</a></li>
+	<li class="cta-container"><a class="cta" href="#quote">Quote</a></li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+
+    <div id="slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="no-padding hidden-xs col-md-12">
+                    <img class="img-responsive" src="background.jpg" style="width:100%;"/>
+                </div>
+                <div class="no-padding col-xs-12 hidden-sm hidden-md hidden-lg">
+                    <img class="img-responsive" src="banner-small-crop.jpg" style="width:100%;"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="design.svg" />
+                    <h3>Custom Design</h3>
+                    <p>If you need an idea translated or have a design ready we can create the final product.</p>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="shirt.svg" />
+                    <h3>Apparel Printing</h3>
+                    <p>Shirts, sweatshirts, tank tops, tote bags, wood plaques - we print it all from polyester to cotton.</p>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="poster.svg" />
+                    <h3>Flat Printing</h3>
+                    <p>Screen printed posters can be a way to stand out from the crowd. We'll print on anything flat.</p>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <img class="img-responsive" src="leaf.svg" />
+                    <h3>Sustainability</h3>
+                    <p>We use water-based sustainable ink and encourage shirts that are US made and sweatshop free.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Small, Independent &amp; Local</h3>
+                    <p>We are a local print shop located on the east side of Green Bay with a small team but a large passion for screen printing. </p>
+
+                    <h4>Quality Productions</h4>
+                    <P>We pride ourselves on making beautiful prints that are made to last. All of our garments are hand printed with care using water based inks that are kinder to the environment. We encourage use of sustainable and sweatshop free garments. The water based ink we use typically lays in the garment so your design is less likely to crack or fade over time. We often joke that the print will last longer than the shirt will! </p>
+
+                    <h4>Flexibility is Key</h4>
+                    <p>Whether you are looking for 5 shirts or 500 shirts we will work with you from design to delivery to make sure you are getting exactly what you are looking for. Our goal is to make this as smooth of a process as possible and we offer in house design work which helps allow us to be flexible with a quick turn around. It means you to spend less time worrying and more time where you want to be with great apparel. </p>
+
+                    <h4>Competitive Pricing</h4>
+                    <p>There are no hidden fees, no surprises and <strong>no minimums</strong> - our pricing model does away with screen, art, ink change and extra fees making this a straightforward process to get you exactly what you need. Our pricing varies on quantity and style of garment.  Every order is unique and we work hard to create a personalized catalogue for each customer we work with. Have questions or need a quote? Please contact us and we will be happy to walk you through the process!</p>
+                </div>
+                <div class="col-md-4">
+                        <h3>Contact Us - Quote</h3>
+                        <p>We would love to answer any questions, collabs or help you with your next project. Just throw us an email at:</p>
+                        <p>
+                            <a href="mailto:GreenBayPrintShop@gmail.com"
+                        </a>GreenBayPrintShop@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="hidden-xs col-md-12">
+                    <h3>Our Work</h3>
+                    
+                    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/39992f8d22e05df3848d9f8dc3bce2e9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> 
+                    
+                    <p><a href="http://www.instagram.com/greenbayprintshop/"> <i class="fa fa-instagram" aria-hidden="true"></i> Follow Us</a></p>
+                </div>
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                    <h3>Our Work</h3>
+                    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f8ef19c5376c5d749b32ab85c8bc7aac.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+                    
+                    <p><a href="http://www.instagram.com/greenbayprintshop/"> <i class="fa fa-instagram" aria-hidden="true"></i> Follow Us</a></p>
+                    
+                </div>                    
+            </div>
+        </div>
+    </div>       
+   
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Green Bay Print Shop</h3>
+
+                        <p>
+                            <a href="mailto:GreenBayPrintShop@gmail.com"
+                        </a>GreenBayPrintShop@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
+        </body>
+   
+</html>
+
